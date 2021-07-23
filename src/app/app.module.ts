@@ -3,14 +3,38 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResumeComponent } from './resume/resume.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
+import { NavBarComponent } from './resume/nav-bar/nav-bar.component';
+import { LandingComponent } from './resume/pages/landing/landing.component';
+import { ExperienceComponent } from './resume/pages/experience/experience.component';
+import { EducationComponent } from './resume/pages/education/education.component';
+import { SkillsComponent } from './resume/pages/skills/skills.component';
+import { CertificationsComponent } from './resume/pages/certifications/certifications.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutmeComponent } from './resume/pages/aboutme/aboutme.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResumeComponent,
+    PortfolioComponent,
+    ContactMeComponent,
+    NavBarComponent,
+    LandingComponent,
+    ExperienceComponent,
+    EducationComponent,
+    SkillsComponent,
+    CertificationsComponent,
+    AboutmeComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
