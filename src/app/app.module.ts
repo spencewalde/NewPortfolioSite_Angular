@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -33,7 +32,6 @@ import { AboutmeComponent } from './resume/pages/aboutme/aboutme.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FontAwesomeModule
   ],
   providers: [],
