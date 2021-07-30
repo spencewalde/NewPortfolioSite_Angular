@@ -1,21 +1,47 @@
-<div class="navbar bg-primary d-lg-none">
-    <div class="col-10 d-lg-none">
-        <h3 class="p-4 myfonts">Spencer Williams</h3>
+<div class="navbar bg-primary d-lg-none d-flex align-items-center">
+    <h3 class="d-none d-sm-block myfonts text-center px-4 text-dark fs-2 ">Spencer Williams</h3>
+    <div class="d-flex p-3 align-items-center justify-items-end w-100" id="nav-social-icons">
+    <div class="w-100">
+        <i class="col-xs-2 fab fa-linkedin-in fa-lg m-2"></i> 
+        <i class="col-xs-2 fab fa-github fa-lg m-2"></i>
+        <i class="col-xs-2 far fa-address-card fa-lg m-2 "></i>
     </div>
-    <div class="col-2 d-lg-none">
-        <i class='fas fa-bars fa-3x'>fa-3x</i><br/>
+    <div class="col-xs-2">
+        <i class="far fa-caret-square-down fa-2x"></i>
     </div>
+    </div>
+    <nav class="navbar" [hidden]="true">
+        <ul class="navbar-nav myfonts w-75 text-center fs-4 text-decoration-none">
+            <li class="nav-item mb-3"><a class="active text-light text-decoration-none hvr-underline-from-center" href="#">Landing</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Education</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Skills</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Experience</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">About me</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Certfications</a></li>
+        </ul>
+    </nav>
 </div>
 
 
-<div  class="col-lg-2 bg-primary min-vh-100 d-none d-lg-block" id="nav">
+<div  class="col-lg-2 bg-primary min-vh-100 d-none d-lg-block min-w-200 align-space-between" id="nav">
     <!-- header  -->
-    <div class="mb-5 d-none d-lg-block">    
-        <h3 class="p-4 myfonts">Spencer Williams</h3>
-    </div>
-    <div class="m-3 d-none d-lg-block">
-        <div class="border border-secondary rounded-circle">
+    <h3 class="myfonts text-center p-3 text-light">Spencer Williams</h3>
+            
+    <div class="m-3 d-none d-lg-block item">
+        <div class="border border-white rounded-circle border-5">
         <img class="rounded-circle h-100 w-100" src="../../../assets/images/resume/Profile.jpg" alt="">
         </div>
     </div>
+
+    <nav class="navbar w-100 justify-content-center">
+        <ul class="navbar-nav myfonts w-75 text-center fs-4 text-decoration-none">
+            <li class="nav-item mb-3"><a class="active text-light text-decoration-none hvr-underline-from-center" href="#">Landing</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Education</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Skills</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Experience</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">About me</a></li>
+            <li class="nav-item mb-3"><a class="text-light text-decoration-none hvr-underline-from-center" href="#">Certfications</a></li>
+        </ul>
+    </nav>
+
 </div>
