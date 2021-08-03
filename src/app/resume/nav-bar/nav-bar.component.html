@@ -1,21 +1,70 @@
-<div class="navbar bg-primary d-lg-none">
-    <div class="col-10 d-lg-none">
-        <h3 class="p-4 myfonts">Spencer Williams</h3>
+<!-- on small screens -->
+<div class="navbar bg-primary d-md-none">
+  <div class="row d-lg-none">
+    <div class="col-sm-12">
+      <div class="">
+        <nav class="nav-brand text-center myfonts">Spencer Williams</nav>
+      </div>
+
+      <ul class="nav flex-column align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-dark myfonts active" href="#">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark myfonts" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark myfonts" href="#">Contact Me</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-2 d-lg-none">
-        <i class='fas fa-bars fa-3x'>fa-3x</i><br/>
-    </div>
+  </div>
 </div>
 
+<!-- on medium screens -->
+<div class="navbar bg-primary d-lg-none d-none d-md-block">
+  <div class="d-lg-none">
+    <nav class="align-items-center justify-content-between d-flex">
+        <ul class="nav p-3">
+        <li class="nav-item">
+          <a href="#" class="nav-link active text-dark myfonts">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark myfonts">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark myfonts">Contact me</a>
+        </li>
+      </ul>
+      <ul class="nav p-3 d-flex">
+        <a href="#" class="nav-link text-dark myfonts">social</a>
+        <a href="#" class="nav-link text-dark myfonts">links</a>
+        <a href="#" class="nav-link text-dark myfonts">here</a>
+      </ul>
+    </nav>
+  </div>
+</div>
 
-<div  class="col-lg-2 bg-primary min-vh-100 d-none d-lg-block" id="nav">
-    <!-- header  -->
-    <div class="mb-5 d-none d-lg-block">    
-        <h3 class="p-4 myfonts">Spencer Williams</h3>
+<!-- on large screens -->
+<div class="col-lg-2 bg-primary min-vh-100 d-none d-lg-block" id="nav">
+  <!-- header  -->
+  <div class="">
+    <div class="">
+        <img class="img-fluid rounded-circle mx-auto mb-2" src="../../../assets/images/resume/Profile.jpg" alt="">
     </div>
-    <div class="m-3 d-none d-lg-block">
-        <div class="border border-secondary rounded-circle">
-        <img class="rounded-circle h-100 w-100" src="../../../assets/images/resume/Profile.jpg" alt="">
-        </div>
-    </div>
+  </div>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link text-dark myfonts active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark myfonts" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark myfonts" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark myfonts" href="#">Disabled</a>
+    </li>
+  </ul>
 </div>
