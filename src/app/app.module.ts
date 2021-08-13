@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -13,6 +14,7 @@ import { SkillsComponent } from './resume/pages/skills/skills.component';
 import { CertificationsComponent } from './resume/pages/certifications/certifications.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutmeComponent } from './resume/pages/aboutme/aboutme.component';
+import { ImageCarouselComponent } from './shared/image-carousel/image-carousel.component';
 
 
 
@@ -29,10 +31,12 @@ import { AboutmeComponent } from './resume/pages/aboutme/aboutme.component';
     SkillsComponent,
     CertificationsComponent,
     AboutmeComponent,
+    ImageCarouselComponent,
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

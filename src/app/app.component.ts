@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Output } from '@angular/core';
 
 
 @Component({
@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'portfolioWebsite';
 
+  
 }

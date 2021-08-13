@@ -1,4 +1,14 @@
-<div>
-<app-nav></app-nav>
-</div>
+<div class="d-flex justify-content-evenly ">
 
+<app-nav class="col-2 bg-primary min-vh-100"></app-nav>
+
+
+<app-landing class="col-10 bg-light min-vh-100"></app-landing>
+<app-skills *ngIf="activePage==='skills' "></app-skills>
+<app-education *ngIf="activePage==='education' "></app-education>
+<app-experience *ngIf="activePage==='experience' "></app-experience>
+<app-certifications *ngIf="activePage==='certfications' "></app-certifications>
+<app-aboutme *ngIf="activePage==='aboutme' "></app-aboutme>
+
+
+</div>
